@@ -21,9 +21,6 @@ The dataset contains 13 features of wines along with a target variable represent
 
 The target variable represents three classes of wine.
 
-## System Block Diagram
-![System Block Diagram](path_to_your_block_diagram_image)
-
 ## Implementation Steps
 
 ### 1. Data Preprocessing
