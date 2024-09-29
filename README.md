@@ -41,25 +41,3 @@ The target variable represents three classes of wine.
   <img src="https://github.com/user-attachments/assets/dfe87389-d4ef-4022-ad29-761326b40246" width="45%" />
   <img src="https://github.com/user-attachments/assets/83c5b530-2371-4589-9ab1-90a0aae859a9" width="45%" />
 </p>
-
-## Code Explanation
-
-### Data Preprocessing
-
-```python
-import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
-
-# Load dataset
-dataset = pd.read_csv('Wine.csv')
-X = dataset.iloc[:, :-1].values
-y = dataset.iloc[:, -1].values
-
-# Split dataset
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 0)
-
-# Feature scaling
-sc = StandardScaler()
-X_train = sc.fit_transform(X_train)
-X_test = sc.transform(X_test)
