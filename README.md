@@ -36,6 +36,12 @@ The target variable represents three classes of wine.
 ### 4. Model Evaluation
 - The model is evaluated using a confusion matrix and accuracy score.
 
+## Output
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/dfe87389-d4ef-4022-ad29-761326b40246" width="45%" />
+  <img src="https://github.com/user-attachments/assets/83c5b530-2371-4589-9ab1-90a0aae859a9" width="45%" />
+</p>
+
 ## Code Explanation
 
 ### Data Preprocessing
